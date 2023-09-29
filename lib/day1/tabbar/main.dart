@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   builder: (context, child) =>    MaterialApp(
     debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-        length: 6,
+        length: 6,//number of taps in the tabbar and tab view
         child: Scaffold(
           appBar: AppBar(
             toolbarHeight: 100.h,

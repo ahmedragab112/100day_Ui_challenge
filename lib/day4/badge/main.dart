@@ -17,11 +17,7 @@ class BadgeWidget extends StatelessWidget {
           body: SafeArea(
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.start, children: [
-              TabBar(
-
-
-                  tabs: [
-
+              TabBar(tabs: [
                 Badge(
                   label: Text('1'),
                   child: Icon(
@@ -41,14 +37,13 @@ class BadgeWidget extends StatelessWidget {
                   Icons.ac_unit,
                   color: Colors.red,
                 ),
-                    Badge(
-                      label: Text('1'),
-                      child: Icon(
-                        Icons.shopping_cart,
-                        color: Colors.red,
-                      ),
-                    ),
-
+                Badge(
+                  label: Text('1'),
+                  child: Icon(
+                    Icons.shopping_cart,
+                    color: Colors.red,
+                  ),
+                ),
               ]),
 
               //as like listview it must have it's hight beacuse it's must be bounded
@@ -58,6 +53,9 @@ class BadgeWidget extends StatelessWidget {
                 Center(child: Text('2')),
                 Center(
                   child: Text('3'),
+                ),
+                Center(
+                  child: Text('4'),
                 )
               ]))
             ]),

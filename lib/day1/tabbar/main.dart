@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(
                 title: const Text('Tab Bar Example'),
                 centerTitle: true,
-                bottom: const TabBar(tabs: [
+                bottom: const TabBar(
+                isScrollable: true,
+                  tabs: [
                   Text('Tab 1'),
                   Text('Tab 2'),
                   Text('Tab 3'),
@@ -26,6 +28,7 @@ class MyApp extends StatelessWidget {
                   Text('Tab 6')
                 ])),
             body: const TabBarView(
+              
               children: [
                 Center(child: Text('1')),
                 Center(child: Text('2')),

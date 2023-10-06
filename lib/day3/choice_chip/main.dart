@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 void main(){
 
-  runApp(ChoiceChipWidget());
+  runApp(const ChoiceChipWidget());
 }
 
 class ChoiceChipWidget extends StatefulWidget {

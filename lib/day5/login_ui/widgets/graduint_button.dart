@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:uichallenge/day5/constants/colors.dart';
+
+import '../constants/colors.dart';
 
 
 class GraduinetButton extends StatelessWidget {
@@ -10,7 +11,7 @@ class GraduinetButton extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8),
-          gradient:  const LinearGradient(
+          gradient: const  LinearGradient(
               begin: Alignment.bottomLeft,
               end: Alignment.topRight,
               colors: [

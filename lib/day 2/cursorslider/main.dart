@@ -51,6 +51,7 @@ class BuildCursorSliderWidget extends StatelessWidget {
                         ),
                       )
                     ],
+
                     carouselController: buttonCarouselController
                     //the controller of the carouse to use it later
                     ,
